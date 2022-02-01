@@ -141,36 +141,19 @@ Na pasta ***views*** clicamos com o direito do mouse e depois em ***Novo Arquivo
 
 Para criarmos N***ovos Arquivos*** dentro da pasta ***views***.
 
-<table>
-    <tr>
-        <td>
-        chamado ***Home.jsx***.
+chamado ***Home.jsx***.
 
-        ```jsx
-        import React from "react";
+```jsx
+import React from "react";
 
-        export default function Home() {
-            return (
-                <>
-                    <h2>Home</h2>
-                </>
-            );
-        }
-        ```
-        </td>
-        <td>
-        
-        </td>
-    </tr>
-    <tr>
-        <td>
-        </td>
-        <td>
-        </td>
-    </tr>
-</table>
-
-
+export default function Home() {
+    return (
+        <>
+            <h2>Home</h2>
+        </>
+    );
+}
+```
 
 chamado ***Lojas.jsx***.
 
